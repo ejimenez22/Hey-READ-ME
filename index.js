@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+//const utils = require('utils')
+//const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs')
-const utils = require('utils')
 
 // question array
 const questions = [{
@@ -15,7 +15,7 @@ const questions = [{
     message: 'Please give a detailed description of the project.'
 },
 {
-    type: ' checkbox',
+    type: 'checkbox',
     name: 'Table of Contents',
     message: 'Table of Contents',
     choices: ['Installation', 'Usage', 'License', 'Contributing', 'Tests']
@@ -47,11 +47,6 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'Questions',
-    message: 'If you have any questions please contact me at the email below.'
-},
-{
-    type: 'input',
     name: 'Github',
     message: 'Please provide a link to your Github profile.'
 },
@@ -65,7 +60,12 @@ const questions = [{
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        writeToFile("README.md", generateMarkdown(data));
+    })
+}
 
 // Function call to initialize app
 init();
