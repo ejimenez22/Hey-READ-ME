@@ -1,7 +1,8 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -17,7 +18,7 @@ function generateMarkdown(data) {
   # ${data.Title}
   ## Description 
   https://github.com/${data.Github}/${data.Title}
-  <br/>
+  <br />
   ${data.Description}
   ## Table of Contents
   * [Installation](#Installation)
@@ -28,25 +29,23 @@ function generateMarkdown(data) {
   * [Questions](#Questions)
   ## Installation
   Here is what you need to install this application: 
-  <br/>
+  <br />
   ${data.Installation}
   ## Usage
   ${data.Usage}
   ## License
-  The license used for this project is: 
-  <br/>
-  ${data.License}
+  The license used for this project is ${data.License}.
   ## Contributing
   The following users contributed to this project:
   ${data.Contributing}
   ## Test
   Here is a sample test of the application running:
-  <br/>
+  <br />
   ## Questions
   If you have any questions please reach out to me at:
-  <br/>
+  <br />
   https://github.com/${data.Github}
-  <br/>
+  <br />
   ${data.Email}
 `;
 }
