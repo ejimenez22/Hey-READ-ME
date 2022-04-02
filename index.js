@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const utils = require('utils');
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs')
 
@@ -12,12 +13,6 @@ const questions = [{
     type: 'input',
     name: 'Description',
     message: 'Please give a detailed description of the project.'
-},
-{
-    type: 'checkbox',
-    name: 'tableOfContents',
-    message: 'Table of Contents',
-    choices: ['Installation', 'Usage', 'License', 'Contributing', 'Tests']
 },
 {
     type: 'input',
@@ -57,7 +52,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writetoFile(fileName, data, function(err) {
+    fs.writeFile(fileName, data, err => {
         if (err) {
             return console.log("error")
         } else {

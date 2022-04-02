@@ -19,7 +19,12 @@ function generateMarkdown(data) {
   https://github.com/${data.Github}/${data.Title}
   ${data.Description}
   ## Table of Contents
-  ${data.tableOfContents}
+  * [Installation](#Installation)
+  * [Usage] (#Usage)
+  * [License] (#License)
+  * [Contributing] (#Contributing)
+  * [Test] (#Test)
+  * [Questions] (#Questions)
   ## Installation
   Here is what you need to install this application: 
   ${data.Installation}
