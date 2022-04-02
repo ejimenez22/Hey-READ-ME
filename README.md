@@ -27,6 +27,7 @@
   ## Test
   Here is a sample test of the application running:
   <br />
+  ![generator gif](./images/Bootcamp%20Mod-9%20Challenge%20README%20Generator.gif)
   ## Questions
   If you have any questions please reach out to me at:
   <br />
