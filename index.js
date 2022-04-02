@@ -24,9 +24,10 @@ const questions = [{
     message: 'Provide instructions and examples for use.'
 },
 {
-    type: 'input',
+    type: 'checkbox',
     name: 'License',
-    message: 'What License is being used?'
+    message: 'What License is being used?',
+    choices: ['MIT', 'Apache License 2.0', 'License not used']
 },
 {
     type: 'input',
