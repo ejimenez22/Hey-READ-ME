@@ -1,6 +1,5 @@
 const inquirer = require("inquirer");
-//const utils = require('utils')
-//const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs')
 
 // question array
@@ -16,7 +15,7 @@ const questions = [{
 },
 {
     type: 'checkbox',
-    name: 'Table of Contents',
+    name: 'tableOfContents',
     message: 'Table of Contents',
     choices: ['Installation', 'Usage', 'License', 'Contributing', 'Tests']
 },
@@ -57,7 +56,15 @@ const questions = [{
 }];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writetoFile(fileName, data, function(err) {
+        if (err) {
+            return console.log("error")
+        } else {
+            console.log("Your README is ready!")
+        }
+    } )
+}
 
 // TODO: Create a function to initialize app
 function init() {
