@@ -1,12 +1,12 @@
 
-  # a
+  # Hey-READ-ME
   
-  ![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
   ## Description 
-  https://github.com/a/a
+  https://github.com/ejimenez22/Hey-READ-ME
   <br />
-  a
+  A Professional Readme.md generator 
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -17,24 +17,24 @@
   ## Installation
   Here is what you need to install this application: 
   <br />
-  a
+  You MUST have Node.js and NPM inquirer installed
   ## Usage
-  a
+  Simply run "node index" in your commmand line and answer the prompts given to you. At the end a Professional README will be generated!
   ## Contributing
   The following users contributed to this project:
   <br />
-  a
+  Enrique Jimenez
   ## Test
   Here is a sample test of the application running:
   <br />
   ## Questions
   If you have any questions please reach out to me at:
   <br />
-  https://github.com/a
+  https://github.com/ejimenez22
   <br />
-  a
+  ejimenez2292@gmail.com
   <br />
   
   ## License
-  The license used for this project is [Apache License 2.0](#License).
+  The license used for this project is [MIT](#License).
   
