@@ -6,7 +6,7 @@
   ## Description 
   https://github.com/ejimenez22/Hey-READ-ME
   <br />
-  A Professional Readme.md generator 
+  A Professional README.md Generator
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -17,9 +17,9 @@
   ## Installation
   Here is what you need to install this application: 
   <br />
-  You MUST have Node.js and NPM inquirer installed
+  You MUST have node.js and npm inquirer installed to run application
   ## Usage
-  Simply run "node index" in your commmand line and answer the prompts given to you. At the end a Professional README will be generated!
+  Simply run "node index" in your command line and answer the prompts. A README.md will be auto generated once you're done!
   ## Contributing
   The following users contributed to this project:
   <br />
