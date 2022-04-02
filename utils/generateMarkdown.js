@@ -12,7 +12,7 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// Markdown for README 
 function generateMarkdown(data) {
   return `
   # ${data.Title}
@@ -37,6 +37,7 @@ function generateMarkdown(data) {
   The license used for this project is ${data.License}.
   ## Contributing
   The following users contributed to this project:
+  <br />
   ${data.Contributing}
   ## Test
   Here is a sample test of the application running:
