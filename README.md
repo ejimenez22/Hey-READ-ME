@@ -1,7 +1,7 @@
 
   # a
   
-  [MIT(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
   
   ## Description 
   https://github.com/a/a
@@ -36,5 +36,5 @@
   <br />
   
   ## License
-  The license used for this project is [MIT](#License).
+  The license used for this project is [Apache License 2.0](#License).
   

@@ -27,7 +27,7 @@ const questions = [{
     type: 'checkbox',
     name: 'License',
     message: 'What License is being used?',
-    choices: ['MIT', 'Apache License 2.0', 'License not used']
+    choices: ['MIT', 'Apache License 2.0', 'None']
 },
 {
     type: 'input',

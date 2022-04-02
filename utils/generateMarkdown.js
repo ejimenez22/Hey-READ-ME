@@ -4,13 +4,13 @@
 function renderLicenseBadge(License) {
   if (License == 'None') {
     return ''
-  } else if (License = 'MIT') {
+  } else if (License == 'MIT') {
   return `
-  [${License}(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![${License}](https://img.shields.io/badge/License-MIT-yellow.svg)
   `
   } else 
   return `
-  [${License}(https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  ![${License}](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
   `
 }
 
